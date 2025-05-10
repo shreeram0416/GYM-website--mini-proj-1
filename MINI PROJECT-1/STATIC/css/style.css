@@ -1,0 +1,124 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(49, 172, 172);
+    background: url(../images/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.left {
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    left: 20px;
+}
+
+.left img {
+   
+    width: 150px;
+    left: 200 px top: 0px;
+}
+
+.left div {
+   
+    line-height: 15px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(214, 136, 34);
+}
+
+.mid {
+    display: block;
+    width: 25%;
+    margin: 30px auto;
+}
+
+.navbar {
+    display: inline-block;
+    text-align: center;
+}
+
+.navbar li {
+
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: rgb(231, 138, 16);
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    color: cornflowerblue;
+    text-decoration: dashed;
+}
+
+.right {
+
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    display: inline-block;
+    }
+
+.right button{
+    border-radius: 7px;
+    background-color: blanchedalmond;
+    padding: 6px;
+margin: 30px; 
+  }
+  .right button:hover{
+    color: cadetblue;
+  }
+  .container{
+    border: 2px solid white;
+    margin: 100px 1250px;
+    width: 15%;
+    padding: 36px;
+    border-radius: 6px;
+  }
+  .forms input{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 5px;
+    margin: 25px;
+ }
+ .container button{
+   
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+ }
+ .container button:hover{
+color:cornflowerblue;
+background-color: cornsilk;
+ }
+.forms input:hover{
+    background-color: rgb(185, 121, 212);
+}
+.gen{
+    
+    color: aliceblue;
+}
+.container select{
+    width: 10 px auto;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 5px;
+    margin: 25px;
+}
+.container select:hover{
+    background-color: rgb(185, 121, 212);
+}
